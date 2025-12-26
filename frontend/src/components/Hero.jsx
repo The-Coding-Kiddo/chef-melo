@@ -5,7 +5,7 @@ import { Play, Star } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen bg-coconut pt-24 pb-16 overflow-hidden">
+    <section id="home" className="min-h-screen bg-coconut pt-32 pb-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-8rem)]">
           {/* Left Content */}
@@ -18,21 +18,21 @@ const Hero = () => {
                 {heroData.taglineAccent}
               </h2>
             </div>
-            
+
             <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
               {heroData.description}
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
-              <Button 
+              <Button
                 className="bg-accent-orange hover:bg-orange-600 text-white px-8 py-6 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
                 asChild
               >
                 <a href="#contact">Order Now</a>
               </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 className="border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-8 py-6 rounded-full text-lg font-medium transition-all duration-300 hover:bg-gray-50 flex items-center gap-2"
                 asChild
               >
@@ -59,8 +59,8 @@ const Hero = () => {
             {/* Main Image Container */}
             <div className="relative">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden bg-gray-100 shadow-2xl">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_f10b5a7f-ecd4-4fa1-8b6c-c8995c26ab39/artifacts/fln856p7_molo2.jpeg"
+                <img
+                  src="/Gemini_Generated_Image_phx6qxphx6qxphx6.png"
                   alt="Chef Molo with Wedding Cake"
                   className="w-full h-full object-cover object-top"
                 />

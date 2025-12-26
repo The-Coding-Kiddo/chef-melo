@@ -9,15 +9,14 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_f10b5a7f-ecd4-4fa1-8b6c-c8995c26ab39/artifacts/hzavudsg_logo2.jpeg" 
-              alt="Chef Molo Logo" 
-              className="h-14 w-14 object-contain rounded-full"
+            <img
+              src="/chefMelo.png"
+              alt="Chef Molo Logo"
+              className="h-24 w-auto object-contain"
             />
-            <span className="font-bold text-2xl text-gray-900 hidden sm:block">Chef Molo</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -35,7 +34,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button 
+            <Button
               className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
               asChild
             >
@@ -66,7 +65,7 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button 
+              <Button
                 className="bg-gray-900 hover:bg-gray-800 text-white rounded-full mt-2 w-full"
                 asChild
               >
